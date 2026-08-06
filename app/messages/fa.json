@@ -2,7 +2,8 @@
   "Home": {
     "badge": "پرتفولیوی شخصی",
     "greeting": "سلام، من محمد نصر هستم",
-   "subtitle": "توسعه‌دهنده فول‌استک با تمرکز بر Next.js، React، Node.js و PostgreSQL"
+   "greeting": "سلام، من محمد هستم",
+"subtitle": "توسعه‌دهنده فول‌استک متخصص در ساخت وب‌اپلیکیشن‌های مدرن با Next.js، React، Node.js و PostgreSQL"
   },
   "Nav": {
     "projects": "پروژه‌ها",
