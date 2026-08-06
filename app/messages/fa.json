@@ -8,4 +8,20 @@
     "projects": "پروژه‌ها",
     "about": "درباره‌ی این سایت"
   }
+ "Projects": {
+    "title": "پروژه‌ها",
+    "subtitle": "چیزهایی که ساختم تا یاد بگیرم و نشون بدم",
+    "urlShortener": {
+      "title": "لینک‌کوتاه‌کن با آمار زنده",
+      "description": "Cache-Aside، Rate Limiting و Worker پس‌زمینه با BullMQ روی Redis و Next.js",
+      "visit": "مشاهده",
+      "about": "توضیح فنی"
+    },
+    "authShowcase": {
+      "title": "Auth Showcase",
+      "description": "پیاده‌سازی همزمان احراز هویت Session-based و JWT با Server Actions",
+      "visit": "مشاهده",
+      "about": "توضیح فنی"
+    }
+  }
 }
