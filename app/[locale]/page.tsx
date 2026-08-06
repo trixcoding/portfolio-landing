@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-
+import LocaleSwitcher from './LocaleSwitcher';
 export default function Home() {
   const t = useTranslations('Home');
   const nav = useTranslations('Nav');
