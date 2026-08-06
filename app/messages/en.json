@@ -1,5 +1,6 @@
 {
   "Home": {
+    "badge": "Personal Portfolio",
     "greeting": "Hi, I'm Mohammad",
     "subtitle": "Full-stack developer, focused on Next.js and Redis"
   },
