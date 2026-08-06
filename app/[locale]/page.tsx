@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Link } from '../i18n/navigation';
+import { Link } from '../../i18n/navigation';
 import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
           {t('subtitle')}
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
           <Link
             href="/projects"
             className="bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg px-6 py-3 transition"
