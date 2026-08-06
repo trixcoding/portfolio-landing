@@ -10,7 +10,7 @@
   },
   "Projects": {
     "title": "Projects",
-    "subtitle": "Things I built to learn and show",
+    "subtitle": "Things I’ve built to learn and showcase",
     "urlShortener": {
       "title": "URL Shortener with Live Analytics",
       "description": "Cache-Aside, Rate Limiting, and a BullMQ background worker on Redis and Next.js",
