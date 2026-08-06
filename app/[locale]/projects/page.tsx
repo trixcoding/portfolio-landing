@@ -18,22 +18,24 @@ export default function ProjectsPage() {
         <p className="text-gray-500 mb-8">{t('subtitle')}</p>
 
         <div className="flex flex-col gap-4">
-          <ProjectCard
-            title={t('urlShortener.title')}
-            description={t('urlShortener.description')}
-            visitLabel={t('urlShortener.visit')}
-            aboutLabel={t('urlShortener.about')}
-            visitUrl="https://YOUR-URL-SHORTENER.vercel.app"
-            aboutUrl="https://YOUR-URL-SHORTENER.vercel.app/about"
-          />
-          <ProjectCard
-            title={t('authShowcase.title')}
-            description={t('authShowcase.description')}
-            visitLabel={t('authShowcase.visit')}
-            aboutLabel={t('authShowcase.about')}
-            visitUrl="https://YOUR-AUTH-SHOWCASE.vercel.app"
-            aboutUrl="https://YOUR-AUTH-SHOWCASE.vercel.app/about"
-          />
+         <ProjectCard
+  title={t('urlShortener.title')}
+  description={t('urlShortener.description')}
+  tag="Redis + BullMQ"
+  visitLabel={t('urlShortener.visit')}
+  aboutLabel={t('urlShortener.about')}
+  visitUrl="https://YOUR-URL-SHORTENER.vercel.app"
+  aboutUrl="https://YOUR-URL-SHORTENER.vercel.app/about"
+/>
+<ProjectCard
+  title={t('authShowcase.title')}
+  description={t('authShowcase.description')}
+  tag="Session + JWT"
+  visitLabel={t('authShowcase.visit')}
+  aboutLabel={t('authShowcase.about')}
+  visitUrl="https://YOUR-AUTH-SHOWCASE.vercel.app"
+  aboutUrl="https://YOUR-AUTH-SHOWCASE.vercel.app/about"
+/>
         </div>
       </div>
     </div>
