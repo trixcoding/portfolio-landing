@@ -1,8 +1,8 @@
 {
   "Home": {
     "badge": "Personal Portfolio",
-   "greeting": "Hi, I'm Mohammad",
-"subtitle": "a Full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
+   "greeting": "Hi, I'm Mohammad.",
+"subtitle": "A full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
   },
   "Nav": {
     "projects": "Projects",
