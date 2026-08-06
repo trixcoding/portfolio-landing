@@ -2,7 +2,7 @@
   "Home": {
     "badge": "Personal Portfolio",
    "greeting": "Hi, I'm Mohammad",
-"subtitle": "Full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
+"subtitle": "a Full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
   },
   "Nav": {
     "projects": "Projects",
@@ -10,7 +10,7 @@
   },
   "Projects": {
     "title": "Projects",
-    "subtitle": "Things I built to learn and to show",
+    "subtitle": "Things I built to learn and show",
     "urlShortener": {
       "title": "URL Shortener with Live Analytics",
       "description": "Cache-Aside, Rate Limiting, and a BullMQ background worker on Redis and Next.js",
