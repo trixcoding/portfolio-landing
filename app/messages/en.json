@@ -8,4 +8,20 @@
     "projects": "Projects",
     "about": "About this site"
   }
+"Projects": {
+    "title": "Projects",
+    "subtitle": "Things I built to learn and to show",
+    "urlShortener": {
+      "title": "URL Shortener with Live Analytics",
+      "description": "Cache-Aside, Rate Limiting, and a BullMQ background worker on Redis and Next.js",
+      "visit": "Visit",
+      "about": "Technical notes"
+    },
+    "authShowcase": {
+      "title": "Auth Showcase",
+      "description": "Side-by-side Session-based and JWT authentication built with Server Actions",
+      "visit": "Visit",
+      "about": "Technical notes"
+    }
+  }
 }
