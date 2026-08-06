@@ -18,7 +18,7 @@
       "about": "توضیح فنی"
     },
     "authShowcase": {
-      "title": "Auth Showcase",
+      "title": "نمونه احراز هویت", 
       "description": "پیاده‌سازی همزمان احراز هویت Session-based و JWT با Server Actions",
       "visit": "مشاهده",
       "about": "توضیح فنی"
