@@ -1,6 +1,7 @@
 interface ProjectCardProps {
   title: string;
   description: string;
+  tag: string;
   visitLabel: string;
   aboutLabel: string;
   visitUrl: string;
@@ -10,18 +11,26 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   description,
+  tag,
   visitLabel,
   aboutLabel,
   visitUrl,
   aboutUrl,
 }: ProjectCardProps) {
   return (
-    <div className="border border-gray-200 rounded-xl p-5 hover:shadow-sm transition">
-      <h3 className="text-lg font-bold text-gray-900 mb-1.5">{title}</h3>
+    <div className="border border-gray-200 rounded-xl p-5 hover:shadow-sm transition bg-white">
+      <div className="flex items-center justify-between gap-3 mb-2">
+        <h3 className="text-lg font-bold text-gray-900">{title}</h3>
+        <span className="bg-blue-50 text-blue-700 text-xs font-medium px-2.5 py-1 rounded-full shrink-0">
+          {tag}
+        </span>
+      </div>
+
       <p className="text-gray-500 text-sm leading-relaxed mb-4">
         {description}
       </p>
-      <div className="flex gap-3">
+
+      <div className="flex gap-2 pt-3 border-t border-gray-100">
         <a
           href={visitUrl}
           target="_blank"
