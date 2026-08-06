@@ -7,8 +7,8 @@
   "Nav": {
     "projects": "Projects",
     "about": "About this site"
-  }
-"Projects": {
+  },
+  "Projects": {
     "title": "Projects",
     "subtitle": "Things I built to learn and to show",
     "urlShortener": {
@@ -23,9 +23,8 @@
       "visit": "Visit",
       "about": "Technical notes"
     }
-  }, 
-
- "About": {
+  },
+  "About": {
     "title": "Technical notes on this site",
     "intro": "This page is built with next-intl to properly support Persian and English side by side, with correct routing strategy and automatic text-direction switching (RTL/LTR).",
     "howTitle": "How it works",
