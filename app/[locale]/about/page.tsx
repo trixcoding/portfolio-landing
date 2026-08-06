@@ -11,20 +11,54 @@ export default function AboutPage() {
           ←
         </Link>
 
-        <h1 className="text-2xl font-bold text-gray-900 mt-4 mb-2">
+        <span className="inline-block bg-blue-50 text-blue-700 text-xs font-medium px-3 py-1 rounded-full mt-4 mb-3">
+          {t('badge')}
+        </span>
+
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">
           {t('title')}
         </h1>
         <p className="text-gray-600 leading-relaxed mb-8">{t('intro')}</p>
 
-        <h2 className="text-lg font-bold text-gray-900 mb-3">
-          {t('howTitle')}
+        <h2 className="text-lg font-bold text-gray-900 mb-4">
+          {t('tableTitle')}
         </h2>
-        <ul className="text-gray-600 leading-relaxed space-y-2 mb-8 list-disc ps-5">
-          <li>{t('how1')}</li>
-          <li>{t('how2')}</li>
-          <li>{t('how3')}</li>
-          <li>{t('how4')}</li>
-        </ul>
+        <div className="border border-gray-200 rounded-xl overflow-hidden mb-8">
+          <table className="w-full text-start text-sm">
+            <thead className="bg-gray-50 text-gray-500">
+              <tr>
+                <th className="px-4 py-3 font-medium">{t('colPart')}</th>
+                <th className="px-4 py-3 font-medium">{t('colHow')}</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              <tr>
+                <td className="px-4 py-3 text-gray-900">{t('rowRouting')}</td>
+                <td className="px-4 py-3 text-gray-600">
+                  {t('rowRoutingDesc')}
+                </td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 text-gray-900">{t('rowMessages')}</td>
+                <td className="px-4 py-3 text-gray-600">
+                  {t('rowMessagesDesc')}
+                </td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 text-gray-900">{t('rowDirection')}</td>
+                <td className="px-4 py-3 text-gray-600">
+                  {t('rowDirectionDesc')}
+                </td>
+              </tr>
+              <tr>
+                <td className="px-4 py-3 text-gray-900">{t('rowRender')}</td>
+                <td className="px-4 py-3 text-gray-600">
+                  {t('rowRenderDesc')}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <div className="border-t border-gray-100 pt-6">
           <a
