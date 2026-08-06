@@ -24,8 +24,8 @@ export default function ProjectsPage() {
   tag="Redis + BullMQ"
   visitLabel={t('urlShortener.visit')}
   aboutLabel={t('urlShortener.about')}
-  visitUrl="https://YOUR-URL-SHORTENER.vercel.app"
-  aboutUrl="https://YOUR-URL-SHORTENER.vercel.app/about"
+  visitUrl="https://url-shortener-xnmp.vercel.app/"
+  aboutUrl="https://url-shortener-xnmp.vercel.app/about"
 />
 <ProjectCard
   title={t('authShowcase.title')}
@@ -33,8 +33,8 @@ export default function ProjectsPage() {
   tag="Session + JWT"
   visitLabel={t('authShowcase.visit')}
   aboutLabel={t('authShowcase.about')}
-  visitUrl="https://YOUR-AUTH-SHOWCASE.vercel.app"
-  aboutUrl="https://YOUR-AUTH-SHOWCASE.vercel.app/about"
+  visitUrl="https://auth-showcase-two.vercel.app/"
+  aboutUrl="https://auth-showcase-two.vercel.app/about"
 />
         </div>
       </div>
