@@ -25,13 +25,20 @@
     }
   },
   "About": {
-    "title": "Technical notes on this site",
-    "intro": "This page is built with next-intl to properly support Persian and English side by side, with correct routing strategy and automatic text-direction switching (RTL/LTR).",
-    "howTitle": "How it works",
-    "how1": "Every route lives under [locale] (e.g. /fa and /en), and proxy.ts detects the right language from the URL or browser",
-    "how2": "Text lives in separate message files (messages/fa.json and messages/en.json), not hardcoded inside components",
-    "how3": "Page direction (dir) switches automatically between rtl and ltr, with no manual class needed on each element",
-    "how4": "Most pages stay pure Server Components; only the language switcher is a Client Component since it needs user interaction",
-    "github": "View full code on GitHub"
-  }
+  "badge": "Technical Notes",
+  "title": "Technical notes on this site",
+  "intro": "This page is built with next-intl to properly support Persian and English side by side, with correct routing strategy and automatic text-direction switching (RTL/LTR).",
+  "tableTitle": "How each part is implemented",
+  "colPart": "Part",
+  "colHow": "Implementation",
+  "rowRouting": "Language routing",
+  "rowRoutingDesc": "Every route lives under [locale], and proxy.ts detects the right language",
+  "rowMessages": "Text storage",
+  "rowMessagesDesc": "Separate fa.json and en.json files, not hardcoded in components",
+  "rowDirection": "Page direction",
+  "rowDirectionDesc": "Automatic switch between rtl and ltr, no manual classes",
+  "rowRender": "Rendering strategy",
+  "rowRenderDesc": "Most pages stay Server Components; only the switcher is Client",
+  "github": "View full code on GitHub"
+}
 }
