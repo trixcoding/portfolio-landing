@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '../../i18n/navigation';
 import {getLocale} from 'next-intl/server';
-export default function AboutPage() {
+export default async function AboutPage() {
   const t = useTranslations('About');
   const locale = await getLocale(); 
  
