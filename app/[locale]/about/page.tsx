@@ -9,7 +9,7 @@ export default async function AboutPage() {
     <div className="min-h-screen bg-white px-4 py-12">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="text-blue-600 hover:underline text-4xl">
-       {locale === 'en' ? '→' : '←'}
+       {locale === 'en' ? '←' : '→'}
         </Link> 
 
         <span className="inline-block bg-blue-50 text-blue-700 text-sm font-medium px-3 py-1 rounded-full mt-4 mb-3">
