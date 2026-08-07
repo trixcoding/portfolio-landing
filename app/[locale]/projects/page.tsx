@@ -3,7 +3,7 @@ import { Link } from '../../i18n/navigation';
 import ProjectCard from './ProjectCard';
 import { getLocale } from "next-intl/server"; 
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
   const t = useTranslations('Projects');
   const locale = await getLocale();
 
