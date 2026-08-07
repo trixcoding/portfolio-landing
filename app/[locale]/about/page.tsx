@@ -1,15 +1,16 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '../../i18n/navigation';
-
+import {getLocale} from 'next-intl/server';
 export default function AboutPage() {
   const t = useTranslations('About');
-
+  const locale = await getLocale(); 
+ 
   return (
     <div className="min-h-screen bg-white px-4 py-12">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="text-blue-600 hover:underline text-4xl">
-          ←
-        </Link>
+       {locale === 'en' ? '→' : '←'}
+        </Link> 
 
         <span className="inline-block bg-blue-50 text-blue-700 text-sm font-medium px-3 py-1 rounded-full mt-4 mb-3">
           {t('badge')}
