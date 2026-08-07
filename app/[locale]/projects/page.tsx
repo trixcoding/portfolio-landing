@@ -11,7 +11,7 @@ export default async function ProjectsPage() {
     <div className="min-h-screen bg-white px-4 py-12">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="text-blue-600 hover:underline text-4xl">
-          {locale === 'en' ? '→' : '←'}
+          {locale === 'en' ? '←' : '→'}
         </Link>
 
         <h1 className="text-2xl font-bold text-gray-900 mt-4 mb-1">
