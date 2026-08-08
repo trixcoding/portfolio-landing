@@ -1,8 +1,8 @@
 {
   "Home": {
     "badge": "Personal Portfolio",
-   "greeting": "Hi, I'm Mohammad.",
-"subtitle": "A full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
+    "greeting": "Hi, I'm Mohammad.",
+    "subtitle": "A full-stack developer specializing in modern web applications with Next.js, React, Node.js, and PostgreSQL"
   },
   "Nav": {
     "projects": "Projects",
@@ -22,23 +22,29 @@
       "description": "Side-by-side Session-based and JWT authentication built with Server Actions",
       "visit": "Visit",
       "about": "Technical notes"
+    },
+    "taskManager": {
+      "title": "Mini SaaS Task Manager",
+      "description": "Project and task management with Server Actions, Prisma, and resource-level authorization",
+      "visit": "Visit",
+      "about": "Technical notes"
     }
   },
   "About": {
-  "badge": "Technical Notes",
-  "title": "Technical notes on this site",
-  "intro": "This site is built with next-intl to support Persian and English side by side, with proper routing and automatic text-direction switching (RTL/LTR).",
-  "tableTitle": "How each part is implemented",
-  "colPart": "Part",
-  "colHow": "Implementation",
-  "rowRouting": "Language routing",
-  "rowRoutingDesc": "Every route lives under [locale], while proxy.ts detects the appropriate locale.",
-  "rowMessages": "Text storage",
-  "rowMessagesDesc": "Separate fa.json and en.json files are used instead of hardcoding text in components.",
-  "rowDirection": "Page direction",
-  "rowDirectionDesc": "The text direction automatically switches between RTL and LTR, without requiring manual classes.",
-  "rowRender": "Rendering strategy",
-  "rowRenderDesc": "Most pages use Server Components; only the language switcher is a Client Component.",
-  "github": "View full code on GitHub"
-}
+    "badge": "Technical Notes",
+    "title": "Technical notes on this site",
+    "intro": "This site is built with next-intl to support Persian and English side by side, with proper routing and automatic text-direction switching (RTL/LTR).",
+    "tableTitle": "How each part is implemented",
+    "colPart": "Part",
+    "colHow": "Implementation",
+    "rowRouting": "Language routing",
+    "rowRoutingDesc": "Every route lives under [locale], while proxy.ts detects the appropriate locale.",
+    "rowMessages": "Text storage",
+    "rowMessagesDesc": "Separate fa.json and en.json files are used instead of hardcoding text in components.",
+    "rowDirection": "Page direction",
+    "rowDirectionDesc": "The text direction automatically switches between RTL and LTR, without requiring manual classes.",
+    "rowRender": "Rendering strategy",
+    "rowRenderDesc": "Most pages use Server Components; only the language switcher is a Client Component.",
+    "github": "View full code on GitHub"
+  }
 }
