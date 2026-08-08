@@ -1,9 +1,8 @@
 {
   "Home": {
     "badge": "پرتفولیوی شخصی",
-    "greeting": "سلام، من محمد نصر هستم",
-   "greeting": "سلام، من محمد هستم",
-"subtitle": "توسعه‌دهنده فول‌استک متخصص در ساخت وب‌اپلیکیشن‌های مدرن با Next.js، React، Node.js و PostgreSQL"
+    "greeting": "سلام، من محمد هستم",
+    "subtitle": "توسعه‌دهنده فول‌استک متخصص در ساخت وب‌اپلیکیشن‌های مدرن با Next.js، React، Node.js و PostgreSQL"
   },
   "Nav": {
     "projects": "پروژه‌ها",
@@ -19,27 +18,33 @@
       "about": "توضیح فنی"
     },
     "authShowcase": {
-      "title": "نمونه احراز هویت", 
+      "title": "نمونه احراز هویت",
       "description": "پیاده‌سازی همزمان احراز هویت Session-based و JWT با Server Actions",
+      "visit": "مشاهده",
+      "about": "توضیح فنی"
+    },
+    "taskManager": {
+      "title": "سیستم مدیریت وظایف ",
+      "description": "مدیریت پروژه و تسک با Server Actions، Prisma و کنترل دسترسی سطح Resource",
       "visit": "مشاهده",
       "about": "توضیح فنی"
     }
   },
   "About": {
-  "badge": "توضیح فنی پروژه",
-  "title": "توضیح فنی این سایت",
-  "intro": "این صفحه با next-intl ساخته شده تا به‌صورت واقعی دو زبان فارسی و انگلیسی رو کنار هم، با استراتژی روتینگ درست و سوییچ خودکار جهت متن (RTL/LTR) پیاده‌سازی کنه.",
-  "tableTitle": "چطور هر بخش پیاده‌سازی شده",
-  "colPart": "بخش",
-  "colHow": "نحوه‌ی پیاده‌سازی",
-  "rowRouting": "روتینگ زبان",
-  "rowRoutingDesc": "هر مسیر زیر [locale] قرار می‌گیره و proxy.ts زبان درست رو تشخیص می‌ده",
-  "rowMessages": "ذخیره‌ی متن‌ها",
-  "rowMessagesDesc": "فایل‌های جدا fa.json و en.json، نه داخل کامپوننت‌ها",
-  "rowDirection": "جهت صفحه",
-  "rowDirectionDesc": "سوییچ خودکار بین rtl و ltr، بدون کلاس دستی",
-  "rowRender": "استراتژی رندر",
-  "rowRenderDesc": "بیشتر صفحات Server Component؛ فقط سوییچر زبان Client است",
-  "github": "مشاهده‌ی کد کامل روی گیت‌هاب"
-}
+    "badge": "توضیح فنی پروژه",
+    "title": "توضیح فنی این سایت",
+    "intro": "این صفحه با next-intl ساخته شده تا به‌صورت واقعی دو زبان فارسی و انگلیسی رو کنار هم، با استراتژی روتینگ درست و سوییچ خودکار جهت متن (RTL/LTR) پیاده‌سازی کنه.",
+    "tableTitle": "چطور هر بخش پیاده‌سازی شده",
+    "colPart": "بخش",
+    "colHow": "نحوه‌ی پیاده‌سازی",
+    "rowRouting": "روتینگ زبان",
+    "rowRoutingDesc": "هر مسیر زیر [locale] قرار می‌گیره و proxy.ts زبان درست رو تشخیص می‌ده",
+    "rowMessages": "ذخیره‌ی متن‌ها",
+    "rowMessagesDesc": "فایل‌های جدا fa.json و en.json، نه داخل کامپوننت‌ها",
+    "rowDirection": "جهت صفحه",
+    "rowDirectionDesc": "سوییچ خودکار بین rtl و ltr، بدون کلاس دستی",
+    "rowRender": "استراتژی رندر",
+    "rowRenderDesc": "بیشتر صفحات Server Component؛ فقط سوییچر زبان Client است",
+    "github": "مشاهده‌ی کد کامل روی گیت‌هاب"
+  }
 }
