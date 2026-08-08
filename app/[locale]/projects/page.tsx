@@ -44,6 +44,16 @@ export default async function ProjectsPage() {
             visitUrl="https://auth-showcase-two.vercel.app/"
             aboutUrl="https://auth-showcase-two.vercel.app/about"
           />
+
+          <ProjectCard
+            title={t('taskManager.title')}
+            description={t('taskManager.description')}
+            tag="Next.js + Prisma + PostgreSQL"
+            visitLabel={t('taskManager.visit')}
+            aboutLabel={t('taskManager.about')}
+            visitUrl="https://saas-task-manager-five.vercel.app"
+            aboutUrl="https://saas-task-manager-five.vercel.app/about"
+          />
         </div>
       </div>
     </div>
