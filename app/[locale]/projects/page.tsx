@@ -54,6 +54,16 @@ export default async function ProjectsPage() {
             visitUrl="https://saas-task-manager-five.vercel.app"
             aboutUrl="https://saas-task-manager-five.vercel.app/about"
           />
+<ProjectCard
+  title={t('expressApi.title')}
+  description={t('expressApi.description')}
+  tag="Express.js + TypeScript + PostgreSQL"
+  visitLabel={t('expressApi.visit')}
+  aboutLabel={t('expressApi.about')}
+  visitUrl="#"
+  aboutUrl="#"
+/>
+
         </div>
       </div>
     </div>
