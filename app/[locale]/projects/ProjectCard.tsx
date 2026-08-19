@@ -17,6 +17,15 @@ export default function ProjectCard({
   visitUrl,
   aboutUrl,
 }: ProjectCardProps) {
+  const isVisitDisabled = visitUrl === "#";
+  const isAboutDisabled = aboutUrl === "#";
+
+  const linkBaseClass =
+    "text-sm rounded-md px-3.5 py-1.5 transition inline-flex items-center justify-center";
+
+  const disabledClass =
+    "bg-gray-100 text-gray-400 cursor-not-allowed pointer-events-none border border-gray-200";
+
   return (
     <div className="border border-gray-200 rounded-xl p-5 hover:shadow-sm transition bg-white">
       <div className="flex items-center justify-between gap-3 mb-2">
@@ -32,18 +41,31 @@ export default function ProjectCard({
 
       <div className="flex gap-2 pt-3 border-t border-gray-100">
         <a
-          href={visitUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-md px-3.5 py-1.5 transition"
+          href={isVisitDisabled ? undefined : visitUrl}
+          target={isVisitDisabled ? undefined : "_blank"}
+          rel={isVisitDisabled ? undefined : "noreferrer"}
+          aria-disabled={isVisitDisabled}
+          tabIndex={isVisitDisabled ? -1 : 0}
+          className={`${linkBaseClass} ${
+            isVisitDisabled
+              ? disabledClass
+              : "bg-blue-600 hover:bg-blue-700 text-white"
+          }`}
         >
           {visitLabel}
         </a>
+
         <a
-          href={aboutUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="text-sm border border-gray-300 hover:border-gray-400 text-gray-900 rounded-md px-3.5 py-1.5 transition"
+          href={isAboutDisabled ? undefined : aboutUrl}
+          target={isAboutDisabled ? undefined : "_blank"}
+          rel={isAboutDisabled ? undefined : "noreferrer"}
+          aria-disabled={isAboutDisabled}
+          tabIndex={isAboutDisabled ? -1 : 0}
+          className={`${linkBaseClass} ${
+            isAboutDisabled
+              ? disabledClass
+              : "border border-gray-300 hover:border-gray-400 text-gray-900"
+          }`}
         >
           {aboutLabel}
         </a>
