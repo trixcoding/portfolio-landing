@@ -27,7 +27,7 @@ export default function ProjectCard({
     "bg-gray-100 text-gray-400 cursor-not-allowed pointer-events-none border border-gray-200";
 
   return (
-    <div className="border border-gray-200 rounded-xl p-5 hover:shadow-sm transition bg-white">
+    <div className="border border-gray-200 rounded-xl p-7 hover:shadow-sm transition bg-white">
       <div className="flex items-center justify-between gap-3 mb-2">
         <h3 className="text-lg font-bold text-gray-900">{title}</h3>
         <span className="bg-blue-50 text-blue-700 text-xs font-medium px-2.5 py-1 rounded-full shrink-0">
