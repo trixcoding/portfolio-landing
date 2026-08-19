@@ -23,14 +23,12 @@
       "visit": "Visit",
       "about": "Technical notes"
     },
-  "expressApi": {
-    "title": "RESTful API with Express.js",
-    "description": "A professional backend project built with Express.js and TypeScript, featuring authentication, user management, data validation, centralized error handling, and PostgreSQL integration. The project is currently under final review and being prepared for deployment.",
-    "visit": "View Project",
-    "about": "About Project"
-}, 
-
-
+    "expressApi": {
+      "title": "RESTful API with Express.js",
+      "description": "A professional backend project built with Express.js and TypeScript, featuring authentication, user management, data validation, centralized error handling, and PostgreSQL integration. The project is currently under final review and being prepared for deployment.",
+      "visit": "View Project",
+      "about": "About Project"
+    },
     "taskManager": {
       "title": "Mini SaaS Task Manager",
       "description": "Project and task management with Server Actions, Prisma, and resource-level authorization",
