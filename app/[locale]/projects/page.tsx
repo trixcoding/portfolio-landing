@@ -57,7 +57,7 @@ export default async function ProjectsPage() {
 <ProjectCard
   title={t('expressApi.title')}
   description={t('expressApi.description')}
-  tag="Express.js + PostgreSQL + Scalar API Docs"
+  tag="Express.js + PostgreSQL"
   visitLabel={t('expressApi.visit')}
   aboutLabel={t('expressApi.about')}
   visitUrl="#"
