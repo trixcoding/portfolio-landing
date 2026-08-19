@@ -24,7 +24,7 @@
       "about": "توضیح فنی"
     },
     "expressApi": {
-      "title": "RESTful API با Express.js",
+      "title": "وب‌سرویس RESTful با Express.js", 
       "description": "یک پروژه حرفه‌ای بک‌اند با Express.js و TypeScript که شامل احراز هویت، مدیریت کاربران، اعتبارسنجی داده‌ها، مدیریت خطاها و اتصال به PostgreSQL است. این پروژه در حال بررسی نهایی و آماده‌سازی برای استقرار است.",
       "visit": "مشاهده پروژه",
       "about": "درباره پروژه"
