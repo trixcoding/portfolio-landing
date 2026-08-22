@@ -28,7 +28,7 @@ export default async function ProjectsPage() {
           <ProjectCard
             title={t('urlShortener.title')}
             description={t('urlShortener.description')}
-            tag="Redis + BullMQ + PostgreSQL"
+            tag="Next.js + Redis + BullMQ + PostgreSQL"
             visitLabel={t('urlShortener.visit')}
             aboutLabel={t('urlShortener.about')}
             visitUrl="https://url-shortener-xnmp.vercel.app/"
@@ -38,7 +38,7 @@ export default async function ProjectsPage() {
           <ProjectCard
             title={t('authShowcase.title')}
             description={t('authShowcase.description')}
-            tag="Session + JWT(Jose)"
+            tag="Next.js + Session + JWT(Jose)"
             visitLabel={t('authShowcase.visit')}
             aboutLabel={t('authShowcase.about')}
             visitUrl="https://auth-showcase-two.vercel.app/"
